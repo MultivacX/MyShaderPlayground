@@ -1,0 +1,61 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+/[Bb]uilds/
+/[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+/Logs/
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
+iOS/
+
+.vscode/
+.idea/
+*build*_BurstDebugInformation_DoNotShip
+*build*_BackUpThisFolder_ButDontShipItWithYourGame
+ProjectSettings/GvhProjectSettings.xml
+UserSettings/EditorUserSettings.asset
+Assets/AddressableAssetsData/link.xml
+Assets/AddressableAssetsData/link.xml.meta
+UserSettings/
+build_iOS
+CommonBurstAotSettings.json
+BurstAotSettings_iOS.json
+build_Android
+BurstAotSettings_Android.json
