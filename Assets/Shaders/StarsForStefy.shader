@@ -158,6 +158,7 @@ Shader "Shader Toy/Stars for Stefy"
                     col += StarLayer(uv * scale + i * 453.2) * fade;
                 }
                 // col = pow(col, .4545);
+                col = pow(col, 2.2);
                 return col;
             }
 
