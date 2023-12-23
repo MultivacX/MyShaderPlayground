@@ -170,7 +170,7 @@ Shader "Shader Toy/Orb Audio Lines"
                 fragColor.a += li.a;
 
                 fragColor.rgb = col * fragColor.a;
-
+                fragColor = pow(fragColor, 2.2);
                 return fragColor;
             }
             ENDCG
